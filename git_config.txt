@@ -1,2 +1,0 @@
-git config user.name user
-git config credential.username <email>
