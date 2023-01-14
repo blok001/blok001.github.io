@@ -1,15 +1,9 @@
 import React from "react";
+import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <div style={{ backgroundColor: "pink" }}>
-        <h1>hello darkness</h1>
-        <p>my old friend</p>
-      </div>
-    </div>
-  );
+  return <h1>haha</h1>;
 }
 
 export default App;
