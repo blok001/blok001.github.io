@@ -26,15 +26,19 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
   const [currentTime, setCurrentTime] = useState(0);
   let maxDuration = 10;
 
-  useEffect(() => {
-    console.log("userInteracted: ", userInteracted);
+  if (currentTime === maxDuration) {
+    setIndex((index + 1) % songs.length);
+  }
 
+  useEffect(() => {
+    console.log("index use");
     if (audio && userInteracted) {
       audio.play();
     }
   }, [index]);
 
   useEffect(() => {
+    console.log("audio use");
     const interval = setInterval(() => {
       if (audio) {
         setCurrentTime(audio.currentTime);
@@ -90,7 +94,6 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
     maxDuration = audio.duration;
   }
 
-  console.log(currentTime);
   return (
     <div>
       <audio
@@ -104,9 +107,6 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
         onPause={() => setPlaying(false)}
       />
       <div style={{ display: "flex", alignItems: "center" }}>
-        {/* <IconButton onClick={handlePrevious}>
-          <ArrowBackIcon></ArrowBackIcon>
-        </IconButton> */}
         <IconButton onClick={handlePlayPause}>
           {playing ? <PauseCircleOutline /> : <PlayArrowIcon />}
         </IconButton>
@@ -119,9 +119,6 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
             max={maxDuration}
           />
         </div>
-        {/* <IconButton onClick={handleNext}>
-          <ArrowForwardIcon></ArrowForwardIcon>
-        </IconButton> */}
       </div>
     </div>
   );
