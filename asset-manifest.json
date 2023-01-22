@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1150f425.css",
+    "main.js": "/static/js/main.f5827987.js",
+    "static/media/song3.mp3": "/static/media/song3.c2f9f60a2885c113bb51.mp3",
+    "static/media/svi_znaju_da_sam_sam.mp3": "/static/media/svi_znaju_da_sam_sam.ca81f2432be25da087d6.mp3",
+    "static/media/Helena.mp3": "/static/media/Helena.751e853ae9cd92e4e7c3.mp3",
+    "static/media/FASHION.png": "/static/media/FASHION.cb00422e0b9ae94de4d5.png",
+    "static/media/boromir.png": "/static/media/boromir.1c316fa07cdd4375fa5c.png",
+    "static/media/boromir2.png": "/static/media/boromir2.4ea99ed399101ad79148.png",
+    "static/media/boromir3.png": "/static/media/boromir3.476e33d4a44f3dab3f78.png",
+    "static/media/song2.mp3": "/static/media/song2.db36bce587709e2ebcf9.mp3",
+    "static/media/fonts-ndot57.ttf": "/static/media/fonts-ndot57.8c8984258518a81c0a82.ttf",
+    "static/media/fonts-ndot55.otf": "/static/media/fonts-ndot55.999794e6e4cae13a3577.otf",
+    "index.html": "/index.html",
+    "main.1150f425.css.map": "/static/css/main.1150f425.css.map",
+    "main.f5827987.js.map": "/static/js/main.f5827987.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1150f425.css",
+    "static/js/main.f5827987.js"
+  ]
+}
