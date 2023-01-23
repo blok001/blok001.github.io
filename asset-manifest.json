@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ba05ba72.css",
-    "main.js": "/static/js/main.c579782b.js",
+    "main.js": "/static/js/main.7bde9dc4.js",
     "static/media/svi_znaju_da_sam_sam.mp3": "/static/media/svi_znaju_da_sam_sam.ca81f2432be25da087d6.mp3",
     "static/media/FASHION.png": "/static/media/FASHION.cb00422e0b9ae94de4d5.png",
     "static/media/fonts-ndot57.ttf": "/static/media/fonts-ndot57.8c8984258518a81c0a82.ttf",
     "static/media/fonts-ndot55.otf": "/static/media/fonts-ndot55.999794e6e4cae13a3577.otf",
     "index.html": "/index.html",
     "main.ba05ba72.css.map": "/static/css/main.ba05ba72.css.map",
-    "main.c579782b.js.map": "/static/js/main.c579782b.js.map"
+    "main.7bde9dc4.js.map": "/static/js/main.7bde9dc4.js.map"
   },
   "entrypoints": [
     "static/css/main.ba05ba72.css",
-    "static/js/main.c579782b.js"
+    "static/js/main.7bde9dc4.js"
   ]
 }
