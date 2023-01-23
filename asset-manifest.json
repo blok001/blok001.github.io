@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ba05ba72.css",
-    "main.js": "/static/js/main.7bde9dc4.js",
+    "main.js": "/static/js/main.40e7b9b1.js",
+    "static/media/sta_dolazi_sad.mp3": "/static/media/sta_dolazi_sad.79505041de3d0a6254f8.mp3",
     "static/media/svi_znaju_da_sam_sam.mp3": "/static/media/svi_znaju_da_sam_sam.ca81f2432be25da087d6.mp3",
     "static/media/FASHION.png": "/static/media/FASHION.cb00422e0b9ae94de4d5.png",
+    "static/media/boromir.png": "/static/media/boromir.1c316fa07cdd4375fa5c.png",
     "static/media/fonts-ndot57.ttf": "/static/media/fonts-ndot57.8c8984258518a81c0a82.ttf",
     "static/media/fonts-ndot55.otf": "/static/media/fonts-ndot55.999794e6e4cae13a3577.otf",
     "index.html": "/index.html",
     "main.ba05ba72.css.map": "/static/css/main.ba05ba72.css.map",
-    "main.7bde9dc4.js.map": "/static/js/main.7bde9dc4.js.map"
+    "main.40e7b9b1.js.map": "/static/js/main.40e7b9b1.js.map"
   },
   "entrypoints": [
     "static/css/main.ba05ba72.css",
-    "static/js/main.7bde9dc4.js"
+    "static/js/main.40e7b9b1.js"
   ]
 }
